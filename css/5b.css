@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.flex-item{
+background-color: aquamarine;
+color: black;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-weight: 700;
+border: 1px solid #000;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 10px 10px 10px;
+}
+.item-1{
+    flex: 1;
+}
+.item-2{
+    flex: 2;
+}
+.item-3{
+    flex: 1;
+}
